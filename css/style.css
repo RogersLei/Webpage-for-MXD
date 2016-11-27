@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:"宋体";
+	font-size:12px;
+	color:#35254D;
+}
+a {
+color:#35254D;
+text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;  //鼠标滑动到链接时具有下划线
+}
+#entirety{
+	width:800px;
+	margin:0 auto;
+}
+#header{
+	width:800px;
+	height:215px;	
+}
+	#menu {
+	width: 553px;
+	height: 36px;
+	position: absolute;
+	top: 51px;
+	left: 450px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	}
+    #menu a {
+   		color:#fff;
+   		text-decoration:none;   //白字
+    }
+   	#menu a:hover {
+   		color:#EF533C;       //鼠标滑过红颜色+下划线
+   		text-decoration:underline;
+   	}
+   	#menu ul {
+   		list-style:none;
+  	 	padding-top:15px;
+   	}
+   	#menu li {
+   		float:left;
+   		width:65px;
+   		margin-left:25px;
+   		text-align:center;
+   	}
+#content{
+	width:800px;
+	background-color:#E7E7E7;
+}	
+	 
+	 #left {
+	 	width:190px;
+	 	height:466px;
+	 	float:left;
+	 	border-left:1px solid #A8A8A8;
+	 	border-right:1px solid #A8A8A8;
+	 }
+	 	#demon {
+	     	width:190px;
+	     	height:153px;
+		 	background-color:#8773CE;
+	     }
+		 	 #relation {
+		 		 width:190px;
+				 height:127px;
+		     }
+			 #relation p{
+				 color:#fff;
+		 		 width:140px;
+				 line-height:1.5;
+				 padding:18px 0 0 18px;
+		     }
+		#pass{
+			width:190px;
+			height:313px;
+			background-color:#A596DA;
+			border-bottom:2px solid #9F97B5;
+		}
+			#pmenu{
+				width:190px;
+		  		height:287px;
+		    }
+			#pmenu p {
+		  		width:149px;
+		  		padding:18px 0 0 18px;
+		    }
+			#pmenu p.imgs {
+		   		padding:15px 0 0 18px;
+		    }
+	 #middle{
+	 	width:243px;
+	 	height:466px;
+	 	float:left;
+	 	margin:0 1px;
+	 	border-left:1px solid #BFBFBF;
+	 	border-right:1px solid #C1C1C1;
+	 }
+	 	#news{
+	 	   width:243px;
+		   height:259px;
+		   background-color:#FFF;
+		}
+			#image1 {
+		   		width:225px;
+		   		height:78px;
+		   		padding:8px 0 0 8px;
+			}
+		#news ul{
+		   	padding:8px 0 0 15px;
+		   	list-style:none;
+		   	line-height:1.5;
+		}
+		#feeling{
+			width:243px;
+	 	 	height:207px;
+			/* Permalink - use to edit and share this gradient: 			  http://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+		#feeling ul{
+		   		padding:8px 0 0 15px;
+		   		list-style:none;
+		   		line-height:1.5;
+			}
+	 #right {
+		width:236px;
+		height:466px;
+		float:left;
+		display:inline;
+		border-left:1px solid #A8A8A8;
+		border-right:1px solid #A8A8A8;
+	 }
+	 		#manage {
+	  			width:236px;
+	  			height:129px;
+	    	}
+	    		#manage a {
+	  				color:#35254D;
+	  				text-decoration:none;
+	    		}
+	  			#manage a:hover {
+	  				text-decoration:none;
+	  				font-size:14px;
+					color:#69F;
+	    		}
+				#manage p{
+					width:203px;
+					height:16px;
+					line-height:20px;
+					padding-left:33px;
+					background-color:#fff;
+					border-bottom:1px solid #A8A8A8;
+				}
+				#manage span {
+					color:#BCBCBC;
+					font-size:8px;
+					font-family:Verdana, Arial, Helvetica, sans-serif;
+					padding-left:10px;
+				}
+	 		#status {
+	  				width:236px;
+	  				height:136px;
+					background-color:#DEDFDE;
+	  		}
+			#status p {
+				width:208px;
+				height:25px;
+				line-height:25px;
+				padding-left:28px;
+			}
+			#information {
+				width:236px;
+	  			height:175px;;
+				background-color:#EAEBEC;
+			}
+			#information p {
+				padding:12px 10px 0 20px;
+				float:left;
+			}
+			#information p span {
+				font-weight:bold;
+			}
+			#information ul {
+				padding:14px 0 0 20px;
+				list-style:none;
+				width:224px;
+				float:left;
+			}
+			#information li{
+				float:left;
+				margin-right:5px;
+			}
+	#left1 {
+	   width:64px;
+	   height:466px;
+	   float:left;
+	   background-image:url(../images/mainlf_bg.jpg);
+   }
+   #right1 {
+	   	width:59px;
+	  	height:466px;
+	  	float:right;
+	   	background-image:url(../images/mainrt_bg.jpg);
+   	 }
+	 .class{
+		 clear:both;
+	 }
+#footer{
+	width:800px;
+	height:119px;
+	background:url(../images/footer_bg.jpg);
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
